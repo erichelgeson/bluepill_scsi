@@ -471,6 +471,19 @@ F 3 "~" H 6100 4600 50  0001 C CNN
 	1    6100 4600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6100 4700 6100 4800
+$Comp
+L power:GND #PWR0115
+U 1 1 5F25C2FD
+P 6100 4800
+F 0 "#PWR0115" H 6100 4550 50  0001 C CNN
+F 1 "GND" H 6105 4627 50  0000 C CNN
+F 2 "" H 6100 4800 50  0001 C CNN
+F 3 "" H 6100 4800 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
 Text Label 6250 2650 0    50   ~ 0
 SCSI_ATN
 Wire Wire Line
@@ -820,6 +833,19 @@ Wire Notes Line
 Text Notes 5600 4100 0    50   ~ 0
 SCSI 50 Pin Header
 $Comp
+L power:GND #PWR0114
+U 1 1 5F25C274
+P 5200 4800
+F 0 "#PWR0114" H 5200 4550 50  0001 C CNN
+F 1 "GND" H 5205 4627 50  0000 C CNN
+F 2 "" H 5200 4800 50  0001 C CNN
+F 3 "" H 5200 4800 50  0001 C CNN
+	1    5200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4700 5200 4800
+$Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F24DEAF
 P 5200 4600
@@ -890,6 +916,4 @@ Text Label 9950 1650 1    50   ~ 0
 SCSI_DBP
 Text Label 9950 2600 1    50   ~ 0
 SCSI_DBP
-NoConn ~ 6100 4700
-NoConn ~ 5200 4700
 $EndSCHEMATC
