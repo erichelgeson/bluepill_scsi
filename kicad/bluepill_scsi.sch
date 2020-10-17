@@ -566,78 +566,6 @@ Wire Wire Line
 	8450 1700 8250 1700
 Wire Wire Line
 	7900 1800 7900 1700
-Text Label 8700 1650 1    50   ~ 0
-SCSI_IO
-Text Label 8800 1650 1    50   ~ 0
-SCSI_REQ
-Text Label 8900 1650 1    50   ~ 0
-SCSI_CD
-Text Label 9000 1650 1    50   ~ 0
-SCSI_MSG
-Text Label 9100 1650 1    50   ~ 0
-SCSI_BSY
-Text Label 9200 1650 1    50   ~ 0
-SCSI_SEL
-Text Label 9300 1650 1    50   ~ 0
-SCSI_RST
-Text Label 9400 1650 1    50   ~ 0
-SCSI_ACK
-$Comp
-L Device:R_Network09 RN1
-U 1 1 5FA64A80
-P 9100 1050
-F 0 "RN1" H 9588 1096 50  0000 L CNN
-F 1 "220" H 9588 1005 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 9675 1050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 1050 50  0001 C CNN
-	1    9100 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Network09 RN3
-U 1 1 5FA67A20
-P 10350 1050
-F 0 "RN3" H 10838 1096 50  0000 L CNN
-F 1 "220" H 10838 1005 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 10925 1050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 1050 50  0001 C CNN
-	1    10350 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Network09 RN2
-U 1 1 5FA704F8
-P 9100 2000
-F 0 "RN2" H 9588 2046 50  0000 L CNN
-F 1 "330" H 9588 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 9675 2000 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 2000 50  0001 C CNN
-	1    9100 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Network09 RN4
-U 1 1 5FA7803A
-P 10350 2000
-F 0 "RN4" H 10838 2046 50  0000 L CNN
-F 1 "330" H 10838 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 10925 2000 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 2000 50  0001 C CNN
-	1    10350 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 850  8700 850 
-Wire Wire Line
-	7900 1800 8700 1800
-Connection ~ 8700 850 
-Wire Wire Line
-	8700 850  9950 850 
-Connection ~ 8700 1800
-Wire Wire Line
-	8700 1800 9950 1800
-Text Label 9500 1650 1    50   ~ 0
-SCSI_ATN
 Wire Wire Line
 	5350 2250 5350 2450
 NoConn ~ 5650 2350
@@ -671,136 +599,12 @@ Text Label 6250 2450 0    50   ~ 0
 GND
 Text Label 6250 2550 0    50   ~ 0
 GND
-Text Label 10050 1650 1    50   ~ 0
-SCSI_DAT0
-Wire Wire Line
-	9950 1250 9950 1650
-Wire Wire Line
-	10050 1250 10050 1650
-Wire Wire Line
-	10150 1250 10150 1650
-Wire Wire Line
-	10250 1250 10250 1650
-Wire Wire Line
-	10350 1250 10350 1650
-Wire Wire Line
-	10450 1250 10450 1650
-Wire Wire Line
-	10550 1250 10550 1650
-Wire Wire Line
-	10650 1250 10650 1650
-Wire Wire Line
-	10750 1250 10750 1650
-Wire Wire Line
-	8700 1250 8700 1650
-Wire Wire Line
-	8800 1250 8800 1650
-Wire Wire Line
-	8900 1250 8900 1650
-Wire Wire Line
-	9000 1250 9000 1650
-Wire Wire Line
-	9100 1250 9100 1650
-Wire Wire Line
-	9200 1250 9200 1650
-Wire Wire Line
-	9300 1250 9300 1650
-Wire Wire Line
-	9400 1250 9400 1650
-Wire Wire Line
-	9500 1250 9500 1650
-Text Label 10150 1650 1    50   ~ 0
-SCSI_DAT1
-Text Label 10350 1650 1    50   ~ 0
-SCSI_DAT3
-Text Label 10450 1650 1    50   ~ 0
-SCSI_DAT4
-Text Label 10550 1650 1    50   ~ 0
-SCSI_DAT5
-Text Label 10250 1650 1    50   ~ 0
-SCSI_DAT2
-Text Label 10650 1650 1    50   ~ 0
-SCSI_DAT6
-Text Label 10750 1650 1    50   ~ 0
-SCSI_DAT7
-Text Label 8700 2600 1    50   ~ 0
-SCSI_IO
-Text Label 8800 2600 1    50   ~ 0
-SCSI_REQ
-Text Label 8900 2600 1    50   ~ 0
-SCSI_CD
-Text Label 9000 2600 1    50   ~ 0
-SCSI_MSG
-Text Label 9100 2600 1    50   ~ 0
-SCSI_BSY
-Text Label 9200 2600 1    50   ~ 0
-SCSI_SEL
-Text Label 9300 2600 1    50   ~ 0
-SCSI_RST
-Text Label 9400 2600 1    50   ~ 0
-SCSI_ACK
-Text Label 9500 2600 1    50   ~ 0
-SCSI_ATN
-Text Label 10050 2600 1    50   ~ 0
-SCSI_DAT0
-Wire Wire Line
-	9950 2200 9950 2600
-Wire Wire Line
-	10050 2200 10050 2600
-Wire Wire Line
-	10150 2200 10150 2600
-Wire Wire Line
-	10250 2200 10250 2600
-Wire Wire Line
-	10350 2200 10350 2600
-Wire Wire Line
-	10450 2200 10450 2600
-Wire Wire Line
-	10550 2200 10550 2600
-Wire Wire Line
-	10650 2200 10650 2600
-Wire Wire Line
-	10750 2200 10750 2600
-Wire Wire Line
-	8700 2200 8700 2600
-Wire Wire Line
-	8800 2200 8800 2600
-Wire Wire Line
-	8900 2200 8900 2600
-Wire Wire Line
-	9000 2200 9000 2600
-Wire Wire Line
-	9100 2200 9100 2600
-Wire Wire Line
-	9200 2200 9200 2600
-Wire Wire Line
-	9300 2200 9300 2600
-Wire Wire Line
-	9400 2200 9400 2600
-Wire Wire Line
-	9500 2200 9500 2600
-Text Label 10150 2600 1    50   ~ 0
-SCSI_DAT1
-Text Label 10350 2600 1    50   ~ 0
-SCSI_DAT3
-Text Label 10450 2600 1    50   ~ 0
-SCSI_DAT4
-Text Label 10550 2600 1    50   ~ 0
-SCSI_DAT5
-Text Label 10250 2600 1    50   ~ 0
-SCSI_DAT2
-Text Label 10650 2600 1    50   ~ 0
-SCSI_DAT6
-Text Label 10750 2600 1    50   ~ 0
-SCSI_DAT7
 Wire Wire Line
 	8550 4050 8050 4050
 Wire Wire Line
 	8550 3950 8050 3950
 Wire Wire Line
 	8550 4450 8050 4450
-Text Notes 7700 2750 0    50   ~ 0
-SCSI Termination Resistors
 Wire Notes Line
 	7650 700  11100 700 
 Wire Notes Line
@@ -886,10 +690,208 @@ F 3 "~" H 7100 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 1950 7100 1800
-Text Label 9950 1650 1    50   ~ 0
-SCSI_DBP
-Text Label 9950 2600 1    50   ~ 0
-SCSI_DBP
 NoConn ~ 6100 4700
 NoConn ~ 5200 4700
+Text Label 8700 2600 1    50   ~ 0
+SCSI_IO
+Text Label 8800 2600 1    50   ~ 0
+SCSI_REQ
+Text Label 8900 2600 1    50   ~ 0
+SCSI_CD
+Text Label 9000 2600 1    50   ~ 0
+SCSI_MSG
+Text Label 9100 2600 1    50   ~ 0
+SCSI_BSY
+Text Label 9200 2600 1    50   ~ 0
+SCSI_SEL
+Text Label 9300 2600 1    50   ~ 0
+SCSI_RST
+Text Label 9400 2600 1    50   ~ 0
+SCSI_ACK
+Text Label 9500 2600 1    50   ~ 0
+SCSI_ATN
+Wire Wire Line
+	8700 2200 8700 2600
+Wire Wire Line
+	8800 2200 8800 2600
+Wire Wire Line
+	8900 2200 8900 2600
+Wire Wire Line
+	9000 2200 9000 2600
+Wire Wire Line
+	9100 2200 9100 2600
+Wire Wire Line
+	9200 2200 9200 2600
+Wire Wire Line
+	9300 2200 9300 2600
+Wire Wire Line
+	9400 2200 9400 2600
+Wire Wire Line
+	9500 2200 9500 2600
+Text Label 9950 2600 1    50   ~ 0
+SCSI_DBP
+Text Label 9950 1650 1    50   ~ 0
+SCSI_DBP
+Text Notes 7700 2750 0    50   ~ 0
+SCSI Termination Resistors
+Text Label 10750 2600 1    50   ~ 0
+SCSI_DAT7
+Text Label 10650 2600 1    50   ~ 0
+SCSI_DAT6
+Text Label 10250 2600 1    50   ~ 0
+SCSI_DAT2
+Text Label 10550 2600 1    50   ~ 0
+SCSI_DAT5
+Text Label 10450 2600 1    50   ~ 0
+SCSI_DAT4
+Text Label 10350 2600 1    50   ~ 0
+SCSI_DAT3
+Text Label 10150 2600 1    50   ~ 0
+SCSI_DAT1
+Wire Wire Line
+	10750 2200 10750 2600
+Wire Wire Line
+	10650 2200 10650 2600
+Wire Wire Line
+	10550 2200 10550 2600
+Wire Wire Line
+	10450 2200 10450 2600
+Wire Wire Line
+	10350 2200 10350 2600
+Wire Wire Line
+	10250 2200 10250 2600
+Wire Wire Line
+	10150 2200 10150 2600
+Wire Wire Line
+	10050 2200 10050 2600
+Wire Wire Line
+	9950 2200 9950 2600
+Text Label 10050 2600 1    50   ~ 0
+SCSI_DAT0
+Text Label 10750 1650 1    50   ~ 0
+SCSI_DAT7
+Text Label 10650 1650 1    50   ~ 0
+SCSI_DAT6
+Text Label 10250 1650 1    50   ~ 0
+SCSI_DAT2
+Text Label 10550 1650 1    50   ~ 0
+SCSI_DAT5
+Text Label 10450 1650 1    50   ~ 0
+SCSI_DAT4
+Text Label 10350 1650 1    50   ~ 0
+SCSI_DAT3
+Text Label 10150 1650 1    50   ~ 0
+SCSI_DAT1
+Wire Wire Line
+	9500 1250 9500 1650
+Wire Wire Line
+	9400 1250 9400 1650
+Wire Wire Line
+	9300 1250 9300 1650
+Wire Wire Line
+	9200 1250 9200 1650
+Wire Wire Line
+	9100 1250 9100 1650
+Wire Wire Line
+	9000 1250 9000 1650
+Wire Wire Line
+	8900 1250 8900 1650
+Wire Wire Line
+	8800 1250 8800 1650
+Wire Wire Line
+	8700 1250 8700 1650
+Wire Wire Line
+	10750 1250 10750 1650
+Wire Wire Line
+	10650 1250 10650 1650
+Wire Wire Line
+	10550 1250 10550 1650
+Wire Wire Line
+	10450 1250 10450 1650
+Wire Wire Line
+	10350 1250 10350 1650
+Wire Wire Line
+	10250 1250 10250 1650
+Wire Wire Line
+	10150 1250 10150 1650
+Wire Wire Line
+	10050 1250 10050 1650
+Wire Wire Line
+	9950 1250 9950 1650
+Text Label 10050 1650 1    50   ~ 0
+SCSI_DAT0
+Text Label 9500 1650 1    50   ~ 0
+SCSI_ATN
+Text Label 9400 1650 1    50   ~ 0
+SCSI_ACK
+Text Label 9300 1650 1    50   ~ 0
+SCSI_RST
+Text Label 9200 1650 1    50   ~ 0
+SCSI_SEL
+Text Label 9100 1650 1    50   ~ 0
+SCSI_BSY
+Text Label 9000 1650 1    50   ~ 0
+SCSI_MSG
+Text Label 8900 1650 1    50   ~ 0
+SCSI_CD
+Text Label 8800 1650 1    50   ~ 0
+SCSI_REQ
+Text Label 8700 1650 1    50   ~ 0
+SCSI_IO
+NoConn ~ 8550 3850
+NoConn ~ 8550 4550
+Wire Wire Line
+	7900 1800 8700 1800
+Wire Wire Line
+	8450 850  8700 850 
+$Comp
+L Device:R_Network09 RN1
+U 1 1 5FA4D960
+P 9100 1050
+F 0 "RN1" H 9588 1096 50  0000 L CNN
+F 1 "220" H 9588 1005 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 9675 1050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 1050 50  0001 C CNN
+	1    9100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network09 RN3
+U 1 1 5FA502AD
+P 10350 1050
+F 0 "RN3" H 10838 1096 50  0000 L CNN
+F 1 "220" H 10838 1005 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 10925 1050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 1050 50  0001 C CNN
+	1    10350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network09 RN2
+U 1 1 5FA52D01
+P 9100 2000
+F 0 "RN2" H 9588 2046 50  0000 L CNN
+F 1 "330" H 9588 1955 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 9675 2000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 2000 50  0001 C CNN
+	1    9100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network09 RN4
+U 1 1 5FA54CA6
+P 10350 2000
+F 0 "RN4" H 10838 2046 50  0000 L CNN
+F 1 "330" H 10838 1955 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 10925 2000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 2000 50  0001 C CNN
+	1    10350 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 1800
+Wire Wire Line
+	8700 1800 9950 1800
+Connection ~ 8700 850 
+Wire Wire Line
+	8700 850  9950 850 
 $EndSCHEMATC
