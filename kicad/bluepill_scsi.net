@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/erichelgeson/source/bluepill_scsi/kicad/bluepill_scsi.sch)
-    (date "Friday, October 16, 2020 at 03:53:44 PM")
+    (date "Saturday, October 17, 2020 at 02:46:41 PM")
     (tool "Eeschema (5.1.7-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -19,6 +19,8 @@
       (value Conn_02x25_Odd_Even)
       (footprint Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name LCSC) https://lcsc.com/product-detail/IDC-Connectors_BOOMELE-Boom-Precision-Elec-C30006_C30006.html))
       (libsource (lib Connector_Generic) (part Conn_02x25_Odd_Even) (description "Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0261A7))
@@ -33,6 +35,8 @@
       (value Micro_SD_Card)
       (footprint Connector_Card:microSD_HC_Molex_104031-0811)
       (datasheet http://katalog.we-online.de/em/datasheet/693072010801.pdf)
+      (fields
+        (field (name Mouser) https://www.mouser.com/ProductDetail/538-104031-0811))
       (libsource (lib Connector) (part Micro_SD_Card) (description "Micro SD Card Socket"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0BA382))
@@ -47,6 +51,9 @@
       (value TERM_ENABLE_GND)
       (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Mouser) https://www.mouser.com/ProductDetail/872-920-0011-01)
+        (field (name Mouser_1) https://www.mouser.com/ProductDetail/151-8001-E))
       (libsource (lib Device) (part Jumper) (description "Jumper, normally closed"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F9B37AA))
@@ -54,6 +61,9 @@
       (value TERM_ENABLE_5V)
       (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Mouser) https://www.mouser.com/ProductDetail/872-920-0011-01)
+        (field (name Mouser_1) https://www.mouser.com/ProductDetail/151-8001-E))
       (libsource (lib Device) (part Jumper) (description "Jumper, normally closed"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F9B5280))
@@ -75,6 +85,8 @@
       (value 220)
       (footprint Resistor_THT:R_Array_SIP10)
       (datasheet http://www.vishay.com/docs/31509/csc.pdf)
+      (fields
+        (field (name Mouser) https://www.mouser.com/ProductDetail/652-4610X-1LF-220))
       (libsource (lib Device) (part R_Network09) (description "9 resistor network, star topology, bussed resistors, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FA4D960))
@@ -82,6 +94,8 @@
       (value 220)
       (footprint Resistor_THT:R_Array_SIP10)
       (datasheet http://www.vishay.com/docs/31509/csc.pdf)
+      (fields
+        (field (name Mouser) https://www.mouser.com/ProductDetail/652-4610X-1LF-220))
       (libsource (lib Device) (part R_Network09) (description "9 resistor network, star topology, bussed resistors, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FA502AD))
@@ -89,6 +103,8 @@
       (value 330)
       (footprint Resistor_THT:R_Array_SIP10)
       (datasheet http://www.vishay.com/docs/31509/csc.pdf)
+      (fields
+        (field (name Mouser) https://www.mouser.com/ProductDetail/652-4610X-1LF-330))
       (libsource (lib Device) (part R_Network09) (description "9 resistor network, star topology, bussed resistors, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FA52D01))
@@ -96,6 +112,8 @@
       (value 330)
       (footprint Resistor_THT:R_Array_SIP10)
       (datasheet http://www.vishay.com/docs/31509/csc.pdf)
+      (fields
+        (field (name Mouser) https://www.mouser.com/ProductDetail/652-4610X-1LF-330))
       (libsource (lib Device) (part R_Network09) (description "9 resistor network, star topology, bussed resistors, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FA54CA6)))
