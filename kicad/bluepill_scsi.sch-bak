@@ -732,7 +732,7 @@ Text Label 9950 2600 1    50   ~ 0
 SCSI_DBP
 Text Label 9950 1650 1    50   ~ 0
 SCSI_DBP
-Text Notes 7700 2850 0    50   ~ 0
+Text Notes 7700 2750 0    50   ~ 0
 SCSI Termination Resistors
 Text Label 10750 2600 1    50   ~ 0
 SCSI_DAT7
@@ -845,10 +845,10 @@ Wire Wire Line
 Wire Wire Line
 	8450 850  8700 850 
 $Comp
-L Device:R_Network09 RN?
+L Device:R_Network09 RN1
 U 1 1 5FA4D960
 P 9100 1050
-F 0 "RN?" H 9588 1096 50  0000 L CNN
+F 0 "RN1" H 9588 1096 50  0000 L CNN
 F 1 "220" H 9588 1005 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 9675 1050 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 1050 50  0001 C CNN
@@ -856,10 +856,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09 RN?
+L Device:R_Network09 RN3
 U 1 1 5FA502AD
 P 10350 1050
-F 0 "RN?" H 10838 1096 50  0000 L CNN
+F 0 "RN3" H 10838 1096 50  0000 L CNN
 F 1 "220" H 10838 1005 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 10925 1050 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 1050 50  0001 C CNN
@@ -867,10 +867,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09 RN?
+L Device:R_Network09 RN2
 U 1 1 5FA52D01
 P 9100 2000
-F 0 "RN?" H 9588 2046 50  0000 L CNN
+F 0 "RN2" H 9588 2046 50  0000 L CNN
 F 1 "330" H 9588 1955 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 9675 2000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 2000 50  0001 C CNN
@@ -878,10 +878,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09 RN?
+L Device:R_Network09 RN4
 U 1 1 5FA54CA6
 P 10350 2000
-F 0 "RN?" H 10838 2046 50  0000 L CNN
+F 0 "RN4" H 10838 2046 50  0000 L CNN
 F 1 "330" H 10838 1955 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 10925 2000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 2000 50  0001 C CNN

@@ -21,6 +21,7 @@ F 0 "J2" H 5900 3857 50  0000 C CNN
 F 1 "Conn_02x25_Odd_Even" H 5900 3766 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical" H 5900 3675 50  0000 C CNN
 F 3 "~" H 5850 2350 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/IDC-Connectors_BOOMELE-Boom-Precision-Elec-C30006_C30006.html" H 5850 2350 50  0001 C CNN "LCSC"
 	1    5850 2350
 	1    0    0    -1  
 $EndComp
@@ -313,6 +314,7 @@ F 0 "J1" H 9400 4867 50  0000 C CNN
 F 1 "Micro_SD_Card" H 9400 4776 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 10600 4450 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 9450 4150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/538-104031-0811" H 9450 4150 50  0001 C CNN "Mouser"
 	1    9450 4150
 	1    0    0    -1  
 $EndComp
@@ -520,6 +522,8 @@ F 0 "JP1" H 7950 1350 50  0000 R CNN
 F 1 "TERM_ENABLE_GND" H 8250 1550 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7900 1400 50  0001 C CNN
 F 3 "~" H 7900 1400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/872-920-0011-01" H 7900 1400 50  0001 C CNN "Mouser"
+F 5 "https://www.mouser.com/ProductDetail/151-8001-E" H 7900 1400 50  0001 C CNN "Mouser_1"
 	1    7900 1400
 	0    -1   -1   0   
 $EndComp
@@ -531,6 +535,8 @@ F 0 "JP2" H 8300 1350 50  0000 R CNN
 F 1 "TERM_ENABLE_5V" H 8550 1550 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8250 1400 50  0001 C CNN
 F 3 "~" H 8250 1400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/872-920-0011-01" H 8250 1400 50  0001 C CNN "Mouser"
+F 5 "https://www.mouser.com/ProductDetail/151-8001-E" H 8250 1400 50  0001 C CNN "Mouser_1"
 	1    8250 1400
 	0    -1   -1   0   
 $EndComp
@@ -852,6 +858,7 @@ F 0 "RN1" H 9588 1096 50  0000 L CNN
 F 1 "220" H 9588 1005 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 9675 1050 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-220" H 9100 1050 50  0001 C CNN "Mouser"
 	1    9100 1050
 	1    0    0    -1  
 $EndComp
@@ -863,6 +870,7 @@ F 0 "RN3" H 10838 1096 50  0000 L CNN
 F 1 "220" H 10838 1005 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 10925 1050 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-220" H 10350 1050 50  0001 C CNN "Mouser"
 	1    10350 1050
 	1    0    0    -1  
 $EndComp
@@ -874,6 +882,7 @@ F 0 "RN2" H 9588 2046 50  0000 L CNN
 F 1 "330" H 9588 1955 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 9675 2000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 2000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-330" H 9100 2000 50  0001 C CNN "Mouser"
 	1    9100 2000
 	1    0    0    -1  
 $EndComp
@@ -885,6 +894,7 @@ F 0 "RN4" H 10838 2046 50  0000 L CNN
 F 1 "330" H 10838 1955 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 10925 2000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 2000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-330" H 10350 2000 50  0001 C CNN "Mouser"
 	1    10350 2000
 	1    0    0    -1  
 $EndComp
