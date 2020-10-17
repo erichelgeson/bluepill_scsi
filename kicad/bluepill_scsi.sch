@@ -904,4 +904,57 @@ Wire Wire Line
 Connection ~ 8700 850 
 Wire Wire Line
 	8700 850  9950 850 
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F8E1558
+P 950 5350
+F 0 "J3" V 1030 5342 50  0000 L CNN
+F 1 "Programming Pins" V 1200 4950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 950 5350 50  0001 C CNN
+F 3 "~" H 950 5350 50  0001 C CNN
+	1    950  5350
+	0    -1   -1   0   
+$EndComp
+Text Label 1150 5950 1    50   ~ 0
+SCSI_ACK
+Wire Wire Line
+	1050 5550 1050 5950
+Wire Wire Line
+	1150 5550 1150 5950
+Text Label 1050 5950 1    50   ~ 0
+SCSI_BSY
+$Comp
+L power:GND #PWR0113
+U 1 1 5F92A76C
+P 950 5950
+F 0 "#PWR0113" H 950 5700 50  0001 C CNN
+F 1 "GND" V 950 5750 50  0000 C CNN
+F 2 "" H 950 5950 50  0001 C CNN
+F 3 "" H 950 5950 50  0001 C CNN
+	1    950  5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5F92B1C2
+P 850 5950
+F 0 "#PWR0114" H 850 5800 50  0001 C CNN
+F 1 "+3.3V" V 850 6200 50  0000 C CNN
+F 2 "" H 850 5950 50  0001 C CNN
+F 3 "" H 850 5950 50  0001 C CNN
+	1    850  5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  5550 950  5950
+Wire Wire Line
+	850  5550 850  5950
+Wire Notes Line
+	600  5000 1450 5000
+Wire Notes Line
+	1450 5000 1450 6350
+Wire Notes Line
+	1450 6350 600  6350
+Wire Notes Line
+	600  6350 600  5000
 $EndSCHEMATC
