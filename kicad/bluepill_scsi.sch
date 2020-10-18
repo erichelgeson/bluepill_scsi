@@ -313,7 +313,7 @@ P 9450 4150
 F 0 "J1" H 9400 4867 50  0000 C CNN
 F 1 "Micro_SD_Card" H 9400 4776 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 10600 4450 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 9450 4150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/1/1040310811_MEMORY_CARD_SOCKET-153593.pdf" H 9450 4150 50  0001 C CNN
 F 4 "https://www.mouser.com/ProductDetail/538-104031-0811" H 9450 4150 50  0001 C CNN "Mouser"
 	1    9450 4150
 	1    0    0    -1  

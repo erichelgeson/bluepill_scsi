@@ -910,7 +910,7 @@ U 1 1 5F8E1558
 P 950 5350
 F 0 "J3" V 1030 5342 50  0000 L CNN
 F 1 "Programming Pins" V 1200 4950 50  0000 L CNN
-F 2 "" H 950 5350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 950 5350 50  0001 C CNN
 F 3 "~" H 950 5350 50  0001 C CNN
 	1    950  5350
 	0    -1   -1   0   
